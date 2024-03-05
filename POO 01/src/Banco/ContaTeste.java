@@ -24,12 +24,9 @@ class ContaTeste {
         c1.consultarSaldo();
         c2.consultarSaldo();
 
-        System.out.println("Titular: " + c1.Titular);
-        System.out.println("Saldo: " + c1.saldo);
-        System.out.println("Numero: " + c1.numero);
-
-        System.out.println("Titular: " + c2.Titular);
-        System.out.println("Saldo: " + c2.saldo);
-        System.out.println("Numero: " + c2.numero);
+        System.out.println("Titular da conta é: " + c1.Titular + " e o saldo é: " + c1.saldo +
+                " e o número da conta é: " + c1.numero);
+        System.out.println("Titular da conta é: " + c2.Titular + " e o saldo é: " + c2.saldo + " " +
+                "e o número da conta é: " + c2.numero);
     }
 }

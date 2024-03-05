@@ -19,14 +19,7 @@ public class CachorroTeste {
             c1.latir();
             c2.latir();
 
-            System.out.println("Raça: " + c1.raca);
-            System.out.println("Cor: " + c1.cor);
-            System.out.println("Tamanho: " + c1.tamanho);
-            System.out.println("Tamanho do rabo: " + c1.tamRabo);
-
-            System.out.println("Raça: " + c2.raca);
-            System.out.println("Cor: " + c2.cor);
-            System.out.println("Tamanho: " + c2.tamanho);
-            System.out.println("Tamanho do rabo: " + c2.tamRabo);
+            System.out.println(" eu sou da Raça " + c1.raca + " e minha cor é " + c1.cor + " e meu tamanho é " + c1.tamanho + " e tenho rabo: " + c1.tamRabo);
+            System.out.println(" eu sou da Raça " + c2.raca + " e minha cor é " + c2.cor + " e meu tamanho é " + c2.tamanho + " e tenho rabo: " + c2.tamRabo);
         }
 }

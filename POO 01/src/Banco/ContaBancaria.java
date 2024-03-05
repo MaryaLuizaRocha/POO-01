@@ -13,7 +13,7 @@ class ContaBancaria {
         saldo += valor;
     }
     public void consultarSaldo() {
-        System.out.println("Saldo: " + saldo);
+
     }
 
 }
