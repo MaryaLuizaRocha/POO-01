@@ -5,9 +5,7 @@ public class Pessoa {
     public String cidade;
 
     public void apresentar() {
-        System.out.println("Nome: " + nome);
-        System.out.println("Idade: " + idade);
-        System.out.println("Cidade: " + cidade);
+        System.out.println("Esse(a) é " + nome + ", tem " + idade + " anos e mora em " + cidade);
     }
 
 }
