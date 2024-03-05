@@ -12,8 +12,6 @@ public class Circulo {
     }
 
     public void imprimir() {
-        System.out.println("Raio: " + raio);
-        System.out.println("Area: " + calcularArea());
-        System.out.println("Perimetro: " + calcularPerimetro());
+        System.out.println("Raio: deste circulo: " + raio + " Area: " + calcularArea() + " Perimetro: " + calcularPerimetro());
     }
 }
